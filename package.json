@@ -1,0 +1,30 @@
+{
+  "name": "tfjs",
+  "version": "1.0.0",
+  "description": "Develop ML models in JavaScript, and use ML directly in the browser or in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "webpack && webpack-dev-server",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "TensorFlow",
+    "JavaScript",
+    "Node"
+  ],
+  "author": "Alexander Smith <alexandercsmith@protonmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clang-format": "~1.2.3",
+    "mkdirp": "~0.5.1",
+    "webpack": "~4.28.4",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^2.0.0",
+    "argparse": "^1.0.10",
+    "socket.io": "~2.2.0"
+  }
+}
